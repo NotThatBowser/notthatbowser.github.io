@@ -1,6 +1,6 @@
 # notthatbowser.github.io
 
-Profile site hosted on [Github Pages](https://notthatbowser.github.io), built with React.
+Profile & dev story hosted on [Github Pages](https://notthatbowser.github.io), built with React. GitHub actions builds the site to the `gh-pages` branch on deploy to `master`.
 
 ## CLI
 
