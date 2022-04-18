@@ -1,12 +1,11 @@
-import "./Header.css";
 import { ReactComponent as GitHubLogo } from "./github-brands.svg";
 import { ReactComponent as LinkedInLogo } from "./linkedin-brands.svg";
 
 export default function Header() {
   return (
-    <header>
-      <h1>Max Bowser</h1>
-      <div>
+    <header className="text-center">
+      <h1 className="mt-8 text-4xl">Max Bowser</h1>
+      <div className="mt-4 flex justify-center gap-8">
         <a href="https://github.com/NotThatBowser">
           <GitHubLogo title="GitHub" width={32} height={32} />
         </a>
