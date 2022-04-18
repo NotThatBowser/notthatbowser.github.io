@@ -6,9 +6,10 @@ Profile & dev story hosted on [Github Pages](https://notthatbowser.github.io), u
 
 ## CLI
 
-- `npm run dev` Run locally with watch.
-- `npm run test` Run Jest tests.
-- `npm run build` Build for hosting with Github Pages (used by CI).
+- `npm run dev` - Run locally with watch.
+- `npm run test` - Run Jest tests.
+- `npm run build` - Build for hosting with Github Pages (used by CI).
+- `npm run serve` - Serve files locally from the `/build` folder.
 
 ## Actions
 
