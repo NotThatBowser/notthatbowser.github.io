@@ -5,6 +5,6 @@ describe("Profile", () => {
   it("should display header", () => {
     render(<Profile />);
     const name = screen.getByText("Max Bowser");
-    expect(name).toBeInTheDocument();
+    expect(name).toBeVisible();
   });
 });

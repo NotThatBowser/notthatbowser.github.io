@@ -244,7 +244,7 @@ export const devStory: DevStory = {
       yearEnd: 2019,
       monthEnd: 9,
       where: "QS Financial",
-      what: "Paraplanner, IT Manager, Software Developer",
+      what: "Paraplanner, Software Developer",
       tags: ["c#", ".net-core", "sql", "html", "css", "js", "web", "desktop"],
     },
     {
