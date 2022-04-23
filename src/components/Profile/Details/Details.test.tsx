@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import { devStory } from "./data/dev-story";
+import { devStory } from "../../../data/dev-story";
 import Details from "./Details";
 
 describe("Details", () => {

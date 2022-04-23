@@ -1,5 +1,5 @@
 import Tags from "../../../common/Tags";
-import { Project } from "../data/dev-story.d";
+import { Project } from "../../../../data/dev-story";
 
 export default function ProjectItem(project: Project) {
   return (

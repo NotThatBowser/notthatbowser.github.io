@@ -1,5 +1,5 @@
 import Tags from "../../../common/Tags";
-import { Experience } from "../data/dev-story.d";
+import { Experience } from "../../../../data/dev-story";
 
 export default function ExperienceItem(experience: Experience) {
   const yearsString = `${experience.yearStart}-${experience.yearEnd ?? ""}`;
