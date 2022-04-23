@@ -7,7 +7,7 @@ export default function Tags(props: TagsProps) {
   return (
     <div className={`flex flex-wrap ${props.className}`}>
       {props.tags.map((tag) => (
-        <TagItem title={tag} />
+        <TagItem key={tag} title={tag} />
       ))}
     </div>
   );
