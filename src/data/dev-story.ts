@@ -1,4 +1,26 @@
-import { DevStory } from "./dev-story.d";
+export type DevStory = {
+  projects: Project[];
+  experiences: Experience[];
+};
+
+export type Project = {
+  year: number;
+  month: number;
+  what: string;
+  about: string;
+  tags: string[];
+  link: string | null;
+};
+
+export type Experience = {
+  yearStart: number;
+  monthStart: number;
+  yearEnd: number | null;
+  monthEnd: number | null;
+  where: string;
+  what: string;
+  tags: string[];
+};
 
 export const devStory: DevStory = {
   projects: [
@@ -7,7 +29,7 @@ export const devStory: DevStory = {
       month: 4,
       what: "Dev Story Site",
       about: "You are here 📍",
-      tags: ["html", "css", "js", "node-js", "react"],
+      tags: ["html", "css", "js", "node-js", "react", "tailwind", "web"],
       link: "/#recursion-joke",
     },
     {
@@ -40,7 +62,7 @@ export const devStory: DevStory = {
       month: 10,
       what: "Google Sheets Converter",
       about: "Convert Myth Maker data in google sheets into JSON on demand.",
-      tags: ["js", "node-js", "google-sheets-api"],
+      tags: ["js", "node-js"],
       link: null,
     },
     {
@@ -146,7 +168,7 @@ export const devStory: DevStory = {
       year: 2016,
       month: 6,
       what: "Rollcat",
-      about: "Game about a rolling cat, what more is there to say.",
+      about: "Roll the cat 🐱",
       tags: ["game", "c#", "unity", "desktop"],
       link: null,
     },
@@ -227,6 +249,7 @@ export const devStory: DevStory = {
         "js",
         "node-js",
         "react",
+        "tailwind",
         "sql",
         "aws",
         "google-cloud",
@@ -253,7 +276,7 @@ export const devStory: DevStory = {
       yearEnd: 2011,
       monthEnd: 6,
       where: "University of York",
-      what: "BSc (Hons) Economics and Finance",
+      what: "BSc (Hons) Economics & Finance",
       tags: [],
     },
     {
@@ -262,7 +285,7 @@ export const devStory: DevStory = {
       yearEnd: 2011,
       monthEnd: 4,
       where: "Pizza Hut",
-      what: "Pizza Delivery Boy",
+      what: "Pizza Delivery Boy 🍕",
       tags: [],
     },
     {
@@ -271,7 +294,7 @@ export const devStory: DevStory = {
       yearEnd: 2009,
       monthEnd: 10,
       where: "West Midlands Safari Park",
-      what: "Theme Park Ride Operator",
+      what: "Theme Park Ride Operator 🎢",
       tags: [],
     },
   ],

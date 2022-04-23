@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import { Project } from "../data/dev-story.d";
+import { Project } from "../../../../data/dev-story";
 import ProjectItem from "./ProjectItem";
 
 describe("ProjectItem", () => {
