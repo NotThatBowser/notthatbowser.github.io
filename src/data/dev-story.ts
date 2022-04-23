@@ -168,7 +168,7 @@ export const devStory: DevStory = {
       year: 2016,
       month: 6,
       what: "Rollcat",
-      about: "Game about a rolling cat, what more is there to say.",
+      about: "Roll the cat 🐱",
       tags: ["game", "c#", "unity", "desktop"],
       link: null,
     },
