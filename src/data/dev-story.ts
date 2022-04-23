@@ -29,7 +29,7 @@ export const devStory: DevStory = {
       month: 4,
       what: "Dev Story Site",
       about: "You are here 📍",
-      tags: ["html", "css", "js", "node-js", "react"],
+      tags: ["html", "css", "js", "node-js", "react", "tailwind", "web"],
       link: "/#recursion-joke",
     },
     {
@@ -62,7 +62,7 @@ export const devStory: DevStory = {
       month: 10,
       what: "Google Sheets Converter",
       about: "Convert Myth Maker data in google sheets into JSON on demand.",
-      tags: ["js", "node-js", "google-sheets-api"],
+      tags: ["js", "node-js"],
       link: null,
     },
     {
@@ -249,6 +249,7 @@ export const devStory: DevStory = {
         "js",
         "node-js",
         "react",
+        "tailwind",
         "sql",
         "aws",
         "google-cloud",
@@ -275,7 +276,7 @@ export const devStory: DevStory = {
       yearEnd: 2011,
       monthEnd: 6,
       where: "University of York",
-      what: "BSc (Hons) Economics and Finance",
+      what: "BSc (Hons) Economics & Finance",
       tags: [],
     },
     {
