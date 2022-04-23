@@ -35,5 +35,5 @@ export default function Header(props: HeaderProps) {
 }
 
 function SectionTitle({ title }: { title: string }) {
-  return <h2 className="text-2xl font-inter mb-2">{title}</h2>;
+  return <h2 className="text-2xl font-inter mb-2 uppercase">{title}</h2>;
 }
