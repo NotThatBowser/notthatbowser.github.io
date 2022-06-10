@@ -224,6 +224,15 @@ export const devStory: DevStory = {
   ],
   experiences: [
     {
+      yearStart: 2022,
+      monthStart: 6,
+      yearEnd: null,
+      monthEnd: null,
+      where: "AZ-900 exam",
+      what: "Microsoft Certified: Azure Fundamentals",
+      tags: ["azure"],
+    },
+    {
       yearStart: 2021,
       monthStart: 2,
       yearEnd: null,
@@ -251,6 +260,7 @@ export const devStory: DevStory = {
         "react",
         "tailwind",
         "sql",
+        "azure",
         "aws",
         "google-cloud",
         "firebase",
@@ -258,7 +268,6 @@ export const devStory: DevStory = {
         "web",
         "android",
         "ios",
-        "desktop",
       ],
     },
     {
