@@ -29,7 +29,7 @@ export const devStory: DevStory = {
       month: 8,
       what: "Rainfall",
       about: "A web app to monitor weekly rainfall from environment agency sensors.",
-      tags: ["html", "css", "js", "node-js", "react", "web", "azure", "c#"],
+      tags: ["html", "css", "js", "react", "web", "next-js", "vercel", "azure", "c#"],
       link: "https://wws-rainfall.vercel.app/",
     },
     {
