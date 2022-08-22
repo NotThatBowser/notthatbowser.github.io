@@ -26,11 +26,19 @@ export const devStory: DevStory = {
   projects: [
     {
       year: 2022,
+      month: 8,
+      what: "Rainfall",
+      about: "A web app to monitor weekly rainfall from environment agency sensors.",
+      tags: ["html", "css", "js", "react", "web", "next-js", "vercel", "azure", "c#"],
+      link: "https://wws-rainfall.vercel.app/",
+    },
+    {
+      year: 2022,
       month: 4,
       what: "Dev Story Site",
       about: "You are here 📍",
       tags: ["html", "css", "js", "node-js", "react", "tailwind", "web"],
-      link: "/#recursion-joke",
+      link: null,
     },
     {
       year: 2022,
@@ -223,6 +231,15 @@ export const devStory: DevStory = {
     },
   ],
   experiences: [
+    {
+      yearStart: 2022,
+      monthStart: 8,
+      yearEnd: null,
+      monthEnd: null,
+      where: "AZ-204 exam",
+      what: "Microsoft Certified: Azure Developer Associate",
+      tags: ["azure"],
+    },
     {
       yearStart: 2022,
       monthStart: 6,
