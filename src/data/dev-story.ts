@@ -26,14 +26,6 @@ export const devStory: DevStory = {
   projects: [
     {
       year: 2022,
-      month: 8,
-      what: "Rainfall",
-      about: "A web app to monitor weekly rainfall from environment agency sensors.",
-      tags: ["html", "css", "js", "react", "web", "next-js", "vercel", "azure", "c#"],
-      link: "https://wws-rainfall.vercel.app/",
-    },
-    {
-      year: 2022,
       month: 4,
       what: "Dev Story Site",
       about: "You are here 📍",
