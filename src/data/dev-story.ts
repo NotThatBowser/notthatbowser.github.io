@@ -25,11 +25,19 @@ export type Experience = {
 export const devStory: DevStory = {
   projects: [
     {
+      year: 2024,
+      month: 6,
+      what: "Exhibish",
+      about: "Reviews for exhibitions and shows.",
+      tags: ["html", "css", "js", "astro", "cloudflare-pages", "sanity-cms", "web"],
+      link: "https://exhibish.com",
+    },
+    {
       year: 2022,
       month: 4,
-      what: "Dev Story Site",
+      what: "Dev Story",
       about: "You are here 📍",
-      tags: ["html", "css", "js", "node-js", "react", "tailwind", "web"],
+      tags: ["html", "css", "js", "react", "tailwind", "web"],
       link: null,
     },
     {
@@ -44,7 +52,7 @@ export const devStory: DevStory = {
     {
       year: 2021,
       month: 10,
-      what: "BKPW Electrics Website",
+      what: "BKPW Electrics",
       about: "Site for an electrician.",
       tags: ["html", "css", "web"],
       link: null,
@@ -54,16 +62,8 @@ export const devStory: DevStory = {
       month: 11,
       what: "Myth Maker",
       about: "Generate adventure prompts for fantasy RPG settings.",
-      tags: ["js", "node-js", "svelte", "vercel", "web"],
+      tags: ["js", "svelte", "vercel", "web"],
       link: "https://myth-maker.vercel.app/",
-    },
-    {
-      year: 2020,
-      month: 10,
-      what: "Google Sheets Converter",
-      about: "Convert Myth Maker data in google sheets into JSON on demand.",
-      tags: ["js", "node-js"],
-      link: null,
     },
     {
       year: 2020,
@@ -217,12 +217,21 @@ export const devStory: DevStory = {
       year: 2012,
       month: 7,
       what: "Kingdom of Hilmty",
-      about: "Text adventure RPG, fittingly where my journey began.",
+      about: "Text adventure RPG, fittingly where my story began.",
       tags: ["game", "c++", "desktop"],
       link: null,
     },
   ],
   experiences: [
+    {
+      yearStart: 2023,
+      monthStart: 7,
+      yearEnd: null,
+      monthEnd: null,
+      where: "Dynamic Planner",
+      what: "Senior Software Developer",
+      tags: ["c#", ".net-core", "sql", "html", "css", "js", "azure", "web"],
+    },
     {
       yearStart: 2022,
       monthStart: 8,
@@ -244,8 +253,8 @@ export const devStory: DevStory = {
     {
       yearStart: 2021,
       monthStart: 2,
-      yearEnd: null,
-      monthEnd: null,
+      yearEnd: 2023,
+      monthEnd: 6,
       where: "Dynamic Planner",
       what: "Software Developer",
       tags: ["c#", ".net-core", "sql", "html", "css", "js", "azure", "web"],
@@ -265,7 +274,6 @@ export const devStory: DevStory = {
         "html",
         "css",
         "js",
-        "node-js",
         "react",
         "tailwind",
         "sql",
