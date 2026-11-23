@@ -25,6 +25,22 @@ export type Experience = {
 export const devStory: DevStory = {
   projects: [
     {
+      year: 2026,
+      month: 11,
+      what: "Fringe of the Fringe",
+      about: "Find the Edinburgh Fringe's outliers.",
+      tags: ["astro", "cloudflare-pages", "web"],
+      link: "https://fringeofthefringe.uk/",
+    },
+    {
+      year: 2026,
+      month: 11,
+      what: "Randomap Web",
+      about: "Randomap reborn as a guessing game.",
+      tags: ["game", "html", "js", "d3", "cloudflare-pages", "web"],
+      link: "https://randomap.wychway.studio/",
+    },
+    {
       year: 2024,
       month: 6,
       what: "Exhibish",
@@ -44,8 +60,7 @@ export const devStory: DevStory = {
       year: 2022,
       month: 3,
       what: "Randomap",
-      about:
-        "Explore the world from a bird's eye view, see what's nearby and share what you find.",
+      about: "Explore the world from a bird's eye view.",
       tags: ["dart", "flutter", "android"],
       link: "https://play.google.com/store/apps/details?id=com.wychwaystudios.randomap",
     },
